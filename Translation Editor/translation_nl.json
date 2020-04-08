@@ -3,24 +3,24 @@
 	"languageLocalName": "Nederlands",
 	"cyrillicGlyphs": false,
 	"messages": {
-		"SettingsCalibrationDone": "Calibration done!",
-		"SettingsCalibrationWarning": "Zorg ervoor dat de soldeerpunt op kamertemperatuur is voor je verdergaat!",
-		"SettingsResetWarning": "Ben je zeker dat je alle instellingen naar de standaardwaardes wilt terugzetten?",
-		"UVLOWarningString": "DC LAAG",
+		"SettingsCalibrationDone": "Gekalibreerd!",
+		"SettingsCalibrationWarning": "Zorg ervoor dat de soldeerpunt op kamertemperatuur is voor je doorgaat!",
+		"SettingsResetWarning": "Weet je zeker dat je alle instellingen naar de standaardwaardes wilt terugzetten?",
+		"UVLOWarningString": "VOEDINGSSPANNING LAAG",
 		"UndervoltageString": "Onderspanning",
-		"InputVoltageString": "Input V: ",
-		"WarningTipTempString": "Tip Temp: ",
+		"InputVoltageString": "Voedingsspanning: ",
+		"WarningTipTempString": "Punt Temp: ",
 		"BadTipString": "DEFECT",
 		"SleepingSimpleString": "Zzz ",
 		"SleepingAdvancedString": "Slaapstand...",
 		"WarningSimpleString": "HEET",
-		"WarningAdvancedString": "!!! TIP HEET !!!",
-		"SleepingTipAdvancedString": "Tip:",
-		"IdleTipString": "Tip:",
-		"IdleSetString": " Set:",
-		"TipDisconnectedString": "TIP LOSGEKOPPELD",
-		"SolderingAdvancedPowerPrompt": "vermogen: ",
-		"OffString": "Off",
+		"WarningAdvancedString": "!!! PUNT HEET !!!",
+		"SleepingTipAdvancedString": "Punt:",
+		"IdleTipString": "Punt:",
+		"IdleSetString": "Stel in:",
+		"TipDisconnectedString": "PUNT LOSGEKOPPELD",
+		"SolderingAdvancedPowerPrompt": "Vermogen: ",
+		"OffString": "Uit",
 		"ResetOKMessage": "Reset OK"
 	},
 	"characters": {
@@ -38,31 +38,31 @@
 	"menuGroups": {
 		"SolderingMenu": {
 			"text2": [
-				"Soldeer",
-				"Instellingen"
+				"Soldeer-",
+				"instellingen"
 			],
 			"desc": "Soldeerinstellingen"
 		},
 		"PowerSavingMenu": {
 			"text2": [
-				"Slaap",
-				"Modes"
+				"Slaap-",
+				"modes"
 			],
 			"desc": "Batterijbesparingsinstellingen"
 		},
 		"UIMenu": {
 			"text2": [
 				"Gebruikers-",
-				"Interface"
+				"interface"
 			],
-			"desc": "Gebruikersinterface Instellingen"
+			"desc": "Gebruikersinterfaceinstellingen"
 		},
 		"AdvancedMenu": {
 			"text2": [
-				"geavanceerde",
+				"Geavanceerde",
 				"Instellingen"
 			],
-			"desc": "geavanceerde Instellingen"
+			"desc": "Geavanceerde Instellingen"
 		}
 	},
 	"menuOptions": {
@@ -112,7 +112,7 @@
 				"Temperatuur",
 				"eenheid"
 			],
-			"desc": "Temperatuureenheid <C=Celsius F=Fahrenheit>"
+			"desc": "Temperatuureenheid <°C=Celsius °F=Fahrenheit>"
 		},
 		"AdvancedIdle": {
 			"text": "",
@@ -158,17 +158,17 @@
 			"text": "",
 			"text2": [
 				"Afkoel",
-				"flikker"
+				"knipper"
 			],
-			"desc": "Temperatuur laten flikkeren in het hoofdmenu als de soldeerpunt aan het afkoelen is."
+			"desc": "Temperatuur laten knipperen in het hoofdmenu als de soldeerpunt aan het afkoelen is."
 		},
 		"TemperatureCalibration": {
 			"text": "",
 			"text2": [
-				"Calibreer",
+				"Kalibreer",
 				"temperatuur?"
 			],
-			"desc": "Temperatuursafwijking van de soldeerpunt calibreren."
+			"desc": "Temperatuursafwijking van de soldeerpunt kalibreren."
 		},
 		"SettingsReset": {
 			"text": "",
@@ -181,10 +181,10 @@
 		"VoltageCalibration": {
 			"text": "",
 			"text2": [
-				"Calibreer",
-				"input-voltage?"
+				"Kalibreer",
+				"voedingsspanning?"
 			],
-			"desc": "VIN Calibreren. Knoppen lang ingedrukt houden om te bevestigen."
+			"desc": "Voedingsspanning kalibreren. Knoppen lang ingedrukt houden om te bevestigen."
 		},
 		"AdvancedSoldering": {
 			"text": "",
@@ -203,52 +203,52 @@
 			"desc": "Snelheid waarmee de tekst scrolt."
 		},
 		"TipModel": {
-			"text": "TIPMO",
+			"text": "PUNTMO",
 			"text2": [
-				"Tip",
+				"Punt",
 				"Model"
 			],
-			"desc": "Tip Model selection"
+			"desc": "Selecteer model soldeerpunt"
 		},
 		"SimpleCalibrationMode": {
 			"text": "SMPCAL",
 			"text2": [
-				"Simple",
-				"Calibration"
+				"Eenvoudige",
+				"kalibratie"
 			],
-			"desc": "Simple Calibration using Hot water"
+			"desc": "Simpele kalibratie door middel van heet water"
 		},
 		"AdvancedCalibrationMode": {
 			"text": "ADVCAL",
 			"text2": [
-				"Advanced",
-				"Calibration"
+				"Geavanceerde",
+				"kalibratie"
 			],
-			"desc": "Advanced calibration using thermocouple on the tip"
+			"desc": "Geavanceerde kalibratie door middel van thermokoppel op soldeerpunt"
 		},
 		"PowerInput": {
 			"text": "PWRW",
 			"text2": [
-				"Power",
+				"Adapter",
 				"Wattage"
 			],
-			"desc": "Power Wattage of the power adapter used"
+			"desc": "Wattage van gebruikte adapter"
 		},
 		"PowerLimitEnable": {
 			"text": "PLIMEN",
 			"text2": [
-				"P Limit",
-				"Enable"
+				"Wattagelimiet",
+				"Inschakelen?"
 			],
-			"desc": "Enable power limit"
+			"desc": "In- of uit-schakelen van wattage limiet"
 		},
 		"PowerLimit": {
 			"text": "PLIM",
 			"text2": [
-				"Power",
-				"Limit"
+				"Maximaal",
+				"Wattage"
 			],
-			"desc": "Maximum power the iron can use <Watts>"
+			"desc": "Maximaal aantal wattage <Watts>"
 		},
 		"ReverseButtonTempChange": {
 			"text": "RVTCHG",
@@ -261,18 +261,18 @@
 		"TempChangeShortStep": {
 			"text": "TCHGST",
 			"text2": [
-				"Temp change",
-				"short?"
+				"Temp Stap",
+				"kort?"
 			],
-			"desc": "Temperature change steps on short button press!"
+			"desc": "Stappen temperatuurverandering bij kort indrukken van knop"
 		},
 		"TempChangeLongStep": {
 			"text": "TCHGLT",
 			"text2": [
-				"Temp change",
-				"long?"
+				"Temp Stap",
+				"lang?"
 			],
-			"desc": "Temperature change steps on long button press!"
+			"desc": "Stappen temperatuurverandering bij lang indrukken van knop"
 		}
 	}
 }
